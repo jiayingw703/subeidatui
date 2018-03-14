@@ -1,0 +1,1 @@
+('learning rate for min loss:', '0.1')

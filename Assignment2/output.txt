@@ -1,0 +1,22 @@
+Tuning learning rate by validation data for cross entropy.
+('learning rate:', '0.1', ' Validation Final loss:', 0.053102799)
+('learning rate:', '0.01', ' Validation Final loss:', 0.052766904)
+('learning rate:', '0.5', ' Validation Final loss:', 0.058395155)
+('learning rate:', '0.05', ' Validation Final loss:', 0.05395861)
+('learning rate:', '0.0001', ' Validation Final loss:', 0.16411825)
+('learning rate:', '0.005', ' Validation Final loss:', 0.054244801)
+('learning rate:', '0.0005', ' Validation Final loss:', 0.086825043)
+('learning rate:', '0.001', ' Validation Final loss:', 0.070887208)
+('learning rate for min validation loss logistic:', '0.01')
+
+Tuning learning rate by validation data for classification.
+('learning rate:', '0.1', ' Validation Final loss:', nan)
+('learning rate:', '0.01', ' Validation Final loss:', 0.003743097)
+('learning rate:', '0.5', ' Validation Final loss:', nan)
+('learning rate:', '0.05', ' Validation Final loss:', nan)
+('learning rate:', '0.0001', ' Validation Final loss:', 0.0042463834)
+('learning rate:', '0.005', ' Validation Final loss:', 0.0033306782)
+('learning rate:', '0.0005', ' Validation Final loss:', 0.0037503403)
+('learning rate:', '0.001', ' Validation Final loss:', 0.0035894595)
+('learning rate for min validation loss classification:', '0.1')
+
