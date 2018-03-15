@@ -69,18 +69,15 @@ def loss(learning_rate):
 			batch_target = np.array(batch_target)
 			sess.run(optimizer, feed_dict={data: batch_data, target: batch_target})
 
-		#loss_per_epoch = sess.run(loss, feed_dict={data: trainData, target: trainTarget})
+       loss_per_epoch = sess.run(loss, feed_dict={data: trainData, target: trainTarget})
+       training_loss.append(loss_per_epoch)
+
+    return training_loss
 		
-	validation_pred = sess.run(prediction, feed_dict={data: validData, target: validTarget})
-	acc_count = 0.0
-	for i in list(range(0, len(validation_pred))):
-		     if validation_pred[i] > 0.5 and validTarget[i] > 0.5:
-		         acc_count += 1
-		     elif validation_pred[i] < 0.5 and validTarget[i] < 0.5:
-		          acc_count += 1
+	
 	
             	
-	return acc_count/100.0
+
 
 
 		
