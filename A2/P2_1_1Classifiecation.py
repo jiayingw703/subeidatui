@@ -40,7 +40,8 @@ def loss(learning_rate):
 	bias = tf.Variable(0.0)
 	#learning_rate = tf.placeholder("float32", name = "learning_rate")
 	#loss fn
-	prediction = tf.sigmoid(tf.add(tf.matmul(data, tf.transpose(weight)), bias)) #W^T*x+b
+	prediction = tf.add(tf.matmul(data, tf.transpose(weight)), bias)#W^T*x+b
+	sig_prediction = tf.sigmoid(tf.add(tf.matmul(data, tf.transpose(weight)), bias))#W^T*x+b
 	#squared_diff_sum = tf.reduce_sum(tf.pow((prediction - target) , 2))
 	#MSE_loss = tf.scalar_mul(0.001,squared_diff_sum )
 	#MSE_loss = tf.scalar_mul(0.5, tf.reduce_mean(tf.pow(tf.subtract(prediction, target), 2)))
@@ -72,7 +73,8 @@ def loss(learning_rate):
 			sess.run(optimizer, feed_dict={data: batch_data, target: batch_target})
 
 		#loss_per_epoch = sess.run(loss, feed_dict={data: trainData, target: trainTarget})
-		train_pred = sess.run(prediction, feed_dict={data: trainData, target: trainTarget})
+		train_pred = sess.run(sig_prediction, feed_dict={data: trainData, target: trainTarget})
+
 		acc_count = 0.0
 		for i in list(range(0, len(train_pred))):
 		      if train_pred[i] > 0.5 and trainTarget[i] > 0.5:
@@ -80,8 +82,8 @@ def loss(learning_rate):
 		      elif train_pred[i] < 0.5 and trainTarget[i] < 0.5:
 		          acc_count += 1
 		train_count = acc_count
-		train.append(acc_count/3500.0*100.0)     
-		validation_pred = sess.run(prediction, feed_dict={data: validData, target: validTarget})
+		train.append(acc_count/3500.0*100.0)
+		validation_pred = sess.run(sig_prediction, feed_dict={data: validData, target: validTarget})
 		acc_count = 0.0
 		for i in list(range(0, len(validation_pred))):
 		      if validation_pred[i] > 0.5 and validTarget[i] > 0.5:
@@ -95,6 +97,7 @@ def loss(learning_rate):
 
 
 		
+
 
 	
 def plot():

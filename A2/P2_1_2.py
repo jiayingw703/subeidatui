@@ -40,7 +40,7 @@ def train_loss(learning_rate):
 	bias = tf.Variable(0.0)
 	#learning_rate = tf.placeholder("float32", name = "learning_rate")
 	#loss fn
-	prediction = tf.sigmoid(tf.add(tf.matmul(data, tf.transpose(weight)), bias)) #W^T*x+b
+	prediction = tf.add(tf.matmul(data, tf.transpose(weight)), bias) #W^T*x+b
 	#squared_diff_sum = tf.reduce_sum(tf.pow((prediction - target) , 2))
 	entropy = tf.nn.sigmoid_cross_entropy_with_logits(labels=target, logits=prediction)
 	MSE_loss =tf.reduce_mean(entropy)

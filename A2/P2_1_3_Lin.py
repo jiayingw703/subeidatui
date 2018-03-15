@@ -50,7 +50,7 @@ def lin_Reg(learning_rate):
 	sess = tf.Session()
 	sess.run(tf.global_variables_initializer())
 
-	training_loss = []
+	training_loss,valid_loss = [],[]
 	for i in range(714): # 20000 iterations / 7 batches = 2857 epoch
 		rand_index = list(range(0, len(trainData)))
 		random.shuffle(rand_index)
@@ -69,21 +69,25 @@ def lin_Reg(learning_rate):
 
 		loss_per_epoch = sess.run(loss, feed_dict={data: trainData, target: trainTarget})
 		training_loss.append(loss_per_epoch)
-	return training_loss
+		loss_per_epoch = sess.run(loss, feed_dict={data: validData, target: validTarget})
+		valid_loss.append(loss_per_epoch)
+	return training_loss,valid_loss
 
 	
 def plot():
 	#train_accy_list, train_loss_list = Logistic_Reg(0.001)
-	MSE=lin_Reg(0.001)
+	MSE,valid_loss=lin_Reg(0.001)
 	plt.figure()
 	#plt.plot(trainData,trainTarget,'.')
 	#plt.plot(validtion)#,'k', label = "Learning Rate: 0.005")
+	plt.plot(valid_loss)
 	plt.plot(MSE)#, 'k--', label = "Learning Rate: 0.001")
+
 	#plt.plot(training_loss_3)#, 'k-', label = "Learning Rate: 0.0001")
 	#legend = ax.legend(loc="upper center", shadow=False)
 	#frame = legend.get_frame()
 	#frame.set_facecolor('0.90')
-	#plt.legend(['Validation Loss','Training Loss'], loc='upper right')
+	plt.legend(['Validation Loss','Training Loss'], loc='upper right')
 	plt.title("2.1.3 MSE for Linear Regression")
 	plt.ylabel('MSE')
 	plt.xlabel('Epoch')

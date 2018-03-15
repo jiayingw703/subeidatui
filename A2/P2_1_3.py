@@ -39,7 +39,9 @@ def Logistic_Reg(learning_rate):
 	bias = tf.Variable(0.0)
 	#learning_rate = tf.placeholder("float32", name = "learning_rate")
 	#loss fn
-	prediction = tf.sigmoid(tf.add(tf.matmul(data, tf.transpose(weight)), bias)) #W^T*x+b
+	prediction = tf.add(tf.matmul(data, tf.transpose(weight)), bias) #W^T*x+b
+
+	sig_prediction = tf.sigmoid(tf.add(tf.matmul(data, tf.transpose(weight)), bias)) #W^T*x+b
 	#squared_diff_sum = tf.reduce_sum(tf.pow((prediction - target) , 2))
 	entropy = tf.nn.sigmoid_cross_entropy_with_logits(labels=target, logits=prediction)
 	MSE_loss =tf.reduce_mean(entropy)
@@ -67,7 +69,7 @@ def Logistic_Reg(learning_rate):
 			batch_target = np.array(batch_target)
 			sess.run(optimizer, feed_dict={data: batch_data, target: batch_target})
 
-	train_pred = sess.run(prediction, feed_dict={data: trainData, target: trainTarget})
+	train_pred = sess.run(sig_prediction, feed_dict={data: trainData, target: trainTarget})
 	train_acc_count = 0.0
 	for i in list(range(0, len(trainTarget))):
             if train_pred[i] > 0.5 and trainTarget[i] > 0.5:
@@ -75,7 +77,7 @@ def Logistic_Reg(learning_rate):
             elif train_pred[i] < 0.5 and trainTarget[i] < 0.5:
                 train_acc_count += 1
 
-	validation_pred = sess.run(prediction, feed_dict={data: validData, target: validTarget})
+	validation_pred = sess.run(sig_prediction, feed_dict={data: validData, target: validTarget})
 	val_acc_count = 0.0	
 	for i in list(range(0, len(validTarget))):
             if validation_pred[i]>0.5 and validTarget[i] > 0.5:
@@ -83,7 +85,7 @@ def Logistic_Reg(learning_rate):
             elif validation_pred[i]<0.5 and validTarget[i] < 0.5:
                 val_acc_count += 1
 
-	test_pred = sess.run(prediction, feed_dict={data: testData, target: testTarget})
+	test_pred = sess.run(sig_prediction, feed_dict={data: testData, target: testTarget})
 	test_acc_count = 0.0
 	for i in list(range(0, len(testTarget))):
             if test_pred[i]>0.5 and testTarget[i] > 0.5:

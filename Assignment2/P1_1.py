@@ -41,8 +41,6 @@ def loss(learning_rate):
 	#learning_rate = tf.placeholder("float32", name = "learning_rate")
 	#loss fn
 	prediction = tf.add(tf.matmul(data, tf.transpose(weight)), bias) #W^T*x+b
-	#squared_diff_sum = tf.reduce_sum(tf.pow((prediction - target) , 2))
-	#MSE_loss = tf.scalar_mul(0.001,squared_diff_sum )
 	MSE_loss = tf.scalar_mul(0.5, tf.reduce_mean(tf.pow(tf.subtract(prediction, target), 2)))
 	weight_decay_loss = decay_efficient * tf.nn.l2_loss(weight)
 	loss = MSE_loss + weight_decay_loss
