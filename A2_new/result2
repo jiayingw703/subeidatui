@@ -1,0 +1,9 @@
+2-1-1
+
+best learning rate 0.005
+
+2-1-3
+using learning rate 0.005
+Logistic Regression: train accuracy: 0.999714, validation accuracy: 0.990000, test accuracy: 0.979310
+Normal equation: train accuracy: 0.984000, validation accuracy: 0.960000, test accuracy: 0.917241
+
