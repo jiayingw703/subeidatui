@@ -1,0 +1,6 @@
+1.2.1
+
+Test classification error of 100 hidden units is 0.085169
+Test classification error of 500 hidden units is 0.077460
+Test classification error of 1000 hidden units is 0.073421
+
