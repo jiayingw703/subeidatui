@@ -25,17 +25,15 @@ def loss(learning_rate):
 		validData, validTarget = Data[15000:16000], Target[15000:16000]
 		testData, testTarget = Data[16000:], Target[16000:]
 	
-
 	batch_size = 500
-	decay_efficient = 3*math.e - 4
-	epoch = 30
+	decay_efficient = 0.0003
+	epoch = 200
 	batch_num = 30
 
 	# reshape 3d array to 2d array 
 	trainData = trainData.reshape((-1, 28*28)).astype(np.float32)
 	validData = validData.reshape((-1, 28*28)).astype(np.float32)
 	testData = testData.reshape((-1, 28*28)).astype(np.float32)
-	trainTarget = trainTarget.reshape(-1,1)
 	
 	dataNum, dataLen = trainData.shape
 	target_matrix = np.zeros(shape = (dataNum, 10)) # 10 classes
@@ -66,14 +64,15 @@ def loss(learning_rate):
 		tf.get_variable_scope().reuse_variables()
 		weight2=tf.get_variable("weights")
 
-	sig_prediction = tf.sigmoid(weight_sum_2)
+	prediction = tf.nn.softmax(logits=weight_sum_2)
 	entropy = tf.nn.softmax_cross_entropy_with_logits(labels=target, logits=weight_sum_2)
 	entropy_loss =tf.reduce_mean(entropy)
 	weight_decay_loss1 = decay_efficient * tf.nn.l2_loss(weight1)
 	weight_decay_loss2 = decay_efficient * tf.nn.l2_loss(weight2)
 	weight_decay_loss = weight_decay_loss1 + weight_decay_loss2
 	loss = entropy_loss + weight_decay_loss
-	max_prob = tf.argmax(sig_prediction,axis=1)
+    #find the index
+	max_prob = tf.argmax(prediction,axis=1)
 	#optimizer = tf.train.GradientDescentOptimizer(learning_rate).minimize(loss)
 	optimizer = tf.train.AdamOptimizer(learning_rate).minimize(loss)
 
@@ -98,7 +97,7 @@ def loss(learning_rate):
 			batch_target = np.array(batch_target)
 			sess.run(optimizer, feed_dict={data: batch_data, target: batch_target})
 
-		loss_per_epoch = sess.run(loss, feed_dict={data: trainData, target: target_matrix}) 	
+		loss_per_epoch = sess.run(loss, feed_dict={data: trainData, target: target_matrix})	
 		train_loss_list.append(loss_per_epoch)
 		
 		valid_loss = sess.run(loss, feed_dict={data: validData, target: valid_target_matrix})
@@ -122,7 +121,8 @@ def plot(learning_rate):
 	plt.plot(valid_loss_list)
 	plt.plot(test_loss_list)
 	plt.legend(['training loss', 'validation loss', 'test loss'], loc='upper right')
-	plt.title("1.1.2 Logistic Regression Cross Entropy Loss for best learning rate 0.001")
+	#plt.legend(['training loss'], loc='upper right')
+	plt.title("1.1.2 Cross Entropy Loss for best learning rate 0.001")
 	plt.xlabel("Epoch")
 	plt.ylabel("Cross Entropy Loss")
 	plt.grid(True)
@@ -133,7 +133,8 @@ def plot(learning_rate):
 	plt.plot(valid_accuracy_list)
 	plt.plot(test_accuracy_list)
 	plt.legend(['training accuracy', 'validation accuracy', 'test accuracy'], loc='upper right')
-	plt.title("1.1.2 Logistic Regression Accuracy for best learning rate 0.001")
+	#plt.legend(['training accuracy'], loc='upper right')
+	plt.title("1.1.2 Classification Accuracy for best learning rate 0.001")
 	plt.xlabel("Epoch")
 	plt.ylabel("Accuracy")
 	plt.grid(True)
