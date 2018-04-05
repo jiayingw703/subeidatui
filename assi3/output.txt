@@ -1,0 +1,401 @@
+Epoch number: 0.000000, Training Loss: 0.529133.
+Epoch number: 1.000000, Training Loss: 0.451764.
+Epoch number: 2.000000, Training Loss: 0.410486.
+Epoch number: 3.000000, Training Loss: 0.387428.
+Epoch number: 4.000000, Training Loss: 0.354799.
+Epoch number: 5.000000, Training Loss: 0.323647.
+Epoch number: 6.000000, Training Loss: 0.320834.
+Epoch number: 7.000000, Training Loss: 0.280038.
+Epoch number: 8.000000, Training Loss: 0.263198.
+Epoch number: 9.000000, Training Loss: 0.248585.
+Epoch number: 10.000000, Training Loss: 0.225027.
+Epoch number: 11.000000, Training Loss: 0.228927.
+Epoch number: 12.000000, Training Loss: 0.204148.
+Epoch number: 13.000000, Training Loss: 0.199089.
+Epoch number: 14.000000, Training Loss: 0.185922.
+Epoch number: 15.000000, Training Loss: 0.179477.
+Epoch number: 16.000000, Training Loss: 0.175349.
+Epoch number: 17.000000, Training Loss: 0.172490.
+Epoch number: 18.000000, Training Loss: 0.162219.
+Epoch number: 19.000000, Training Loss: 0.154417.
+Epoch number: 20.000000, Training Loss: 0.154099.
+Epoch number: 21.000000, Training Loss: 0.143529.
+Epoch number: 22.000000, Training Loss: 0.143272.
+Epoch number: 23.000000, Training Loss: 0.139637.
+Epoch number: 24.000000, Training Loss: 0.130564.
+Epoch number: 25.000000, Training Loss: 0.127881.
+Epoch number: 26.000000, Training Loss: 0.132545.
+Epoch number: 27.000000, Training Loss: 0.123628.
+Epoch number: 28.000000, Training Loss: 0.120641.
+Epoch number: 29.000000, Training Loss: 0.122343.
+Epoch number: 30.000000, Training Loss: 0.113852.
+Epoch number: 31.000000, Training Loss: 0.124215.
+Epoch number: 32.000000, Training Loss: 0.111797.
+Epoch number: 33.000000, Training Loss: 0.107905.
+Epoch number: 34.000000, Training Loss: 0.114713.
+Epoch number: 35.000000, Training Loss: 0.107285.
+Epoch number: 36.000000, Training Loss: 0.109261.
+Epoch number: 37.000000, Training Loss: 0.127002.
+Epoch number: 38.000000, Training Loss: 0.112912.
+Epoch number: 39.000000, Training Loss: 0.104648.
+Epoch number: 40.000000, Training Loss: 0.100514.
+Epoch number: 41.000000, Training Loss: 0.094927.
+Epoch number: 42.000000, Training Loss: 0.095187.
+Epoch number: 43.000000, Training Loss: 0.093519.
+Epoch number: 44.000000, Training Loss: 0.090332.
+Epoch number: 45.000000, Training Loss: 0.092263.
+Epoch number: 46.000000, Training Loss: 0.089482.
+Epoch number: 47.000000, Training Loss: 0.088604.
+Epoch number: 48.000000, Training Loss: 0.090930.
+Epoch number: 49.000000, Training Loss: 0.087370.
+Epoch number: 50.000000, Training Loss: 0.090122.
+Epoch number: 51.000000, Training Loss: 0.088245.
+Epoch number: 52.000000, Training Loss: 0.086451.
+Epoch number: 53.000000, Training Loss: 0.089728.
+Epoch number: 54.000000, Training Loss: 0.088166.
+Epoch number: 55.000000, Training Loss: 0.093189.
+Epoch number: 56.000000, Training Loss: 0.098208.
+Epoch number: 57.000000, Training Loss: 0.098950.
+Epoch number: 58.000000, Training Loss: 0.093954.
+Epoch number: 59.000000, Training Loss: 0.092463.
+Epoch number: 60.000000, Training Loss: 0.095688.
+Epoch number: 61.000000, Training Loss: 0.091510.
+Epoch number: 62.000000, Training Loss: 0.092782.
+Epoch number: 63.000000, Training Loss: 0.084547.
+Epoch number: 64.000000, Training Loss: 0.083784.
+Epoch number: 65.000000, Training Loss: 0.082071.
+Epoch number: 66.000000, Training Loss: 0.081891.
+Epoch number: 67.000000, Training Loss: 0.080624.
+Epoch number: 68.000000, Training Loss: 0.079523.
+Epoch number: 69.000000, Training Loss: 0.077257.
+Epoch number: 70.000000, Training Loss: 0.073852.
+Epoch number: 71.000000, Training Loss: 0.078617.
+Epoch number: 72.000000, Training Loss: 0.075788.
+Epoch number: 73.000000, Training Loss: 0.077546.
+Epoch number: 74.000000, Training Loss: 0.094299.
+Epoch number: 75.000000, Training Loss: 0.084074.
+Epoch number: 76.000000, Training Loss: 0.080341.
+Epoch number: 77.000000, Training Loss: 0.086430.
+Epoch number: 78.000000, Training Loss: 0.080426.
+Epoch number: 79.000000, Training Loss: 0.078090.
+Epoch number: 80.000000, Training Loss: 0.076216.
+Epoch number: 81.000000, Training Loss: 0.076937.
+Epoch number: 82.000000, Training Loss: 0.088947.
+Epoch number: 83.000000, Training Loss: 0.079584.
+Epoch number: 84.000000, Training Loss: 0.082117.
+Epoch number: 85.000000, Training Loss: 0.078406.
+Epoch number: 86.000000, Training Loss: 0.077533.
+Epoch number: 87.000000, Training Loss: 0.074493.
+Epoch number: 88.000000, Training Loss: 0.074629.
+Epoch number: 89.000000, Training Loss: 0.073871.
+Epoch number: 90.000000, Training Loss: 0.073778.
+Epoch number: 91.000000, Training Loss: 0.075818.
+Epoch number: 92.000000, Training Loss: 0.072054.
+Epoch number: 93.000000, Training Loss: 0.070763.
+Epoch number: 94.000000, Training Loss: 0.074067.
+Epoch number: 95.000000, Training Loss: 0.073662.
+Epoch number: 96.000000, Training Loss: 0.081290.
+Epoch number: 97.000000, Training Loss: 0.074024.
+Epoch number: 98.000000, Training Loss: 0.110785.
+Epoch number: 99.000000, Training Loss: 0.137739.
+Epoch number: 100.000000, Training Loss: 0.106421.
+Epoch number: 101.000000, Training Loss: 0.096048.
+Epoch number: 102.000000, Training Loss: 0.088393.
+Epoch number: 103.000000, Training Loss: 0.084708.
+Epoch number: 104.000000, Training Loss: 0.080581.
+Epoch number: 105.000000, Training Loss: 0.079001.
+Epoch number: 106.000000, Training Loss: 0.077508.
+Epoch number: 107.000000, Training Loss: 0.077607.
+Epoch number: 108.000000, Training Loss: 0.074260.
+Epoch number: 109.000000, Training Loss: 0.073856.
+Epoch number: 110.000000, Training Loss: 0.072936.
+Epoch number: 111.000000, Training Loss: 0.074637.
+Epoch number: 112.000000, Training Loss: 0.074067.
+Epoch number: 113.000000, Training Loss: 0.070699.
+Epoch number: 114.000000, Training Loss: 0.070518.
+Epoch number: 115.000000, Training Loss: 0.071601.
+Epoch number: 116.000000, Training Loss: 0.072534.
+Epoch number: 117.000000, Training Loss: 0.071160.
+Epoch number: 118.000000, Training Loss: 0.069186.
+Epoch number: 119.000000, Training Loss: 0.072874.
+Epoch number: 120.000000, Training Loss: 0.071956.
+Epoch number: 121.000000, Training Loss: 0.070769.
+Epoch number: 122.000000, Training Loss: 0.068644.
+Epoch number: 123.000000, Training Loss: 0.069493.
+Epoch number: 124.000000, Training Loss: 0.070822.
+Epoch number: 125.000000, Training Loss: 0.070861.
+Epoch number: 126.000000, Training Loss: 0.069667.
+Epoch number: 127.000000, Training Loss: 0.068425.
+Epoch number: 128.000000, Training Loss: 0.071889.
+Epoch number: 129.000000, Training Loss: 0.084196.
+Epoch number: 130.000000, Training Loss: 0.081107.
+Epoch number: 131.000000, Training Loss: 0.071411.
+Epoch number: 132.000000, Training Loss: 0.070471.
+Epoch number: 133.000000, Training Loss: 0.068455.
+Epoch number: 134.000000, Training Loss: 0.080711.
+Epoch number: 135.000000, Training Loss: 0.071133.
+Epoch number: 136.000000, Training Loss: 0.074581.
+Epoch number: 137.000000, Training Loss: 0.070511.
+Epoch number: 138.000000, Training Loss: 0.069542.
+Epoch number: 139.000000, Training Loss: 0.067078.
+Epoch number: 140.000000, Training Loss: 0.068855.
+Epoch number: 141.000000, Training Loss: 0.068839.
+Epoch number: 142.000000, Training Loss: 0.073022.
+Epoch number: 143.000000, Training Loss: 0.073061.
+Epoch number: 144.000000, Training Loss: 0.070601.
+Epoch number: 145.000000, Training Loss: 0.069362.
+Epoch number: 146.000000, Training Loss: 0.068731.
+Epoch number: 147.000000, Training Loss: 0.069178.
+Epoch number: 148.000000, Training Loss: 0.066148.
+Epoch number: 149.000000, Training Loss: 0.071583.
+Epoch number: 150.000000, Training Loss: 0.066553.
+Epoch number: 151.000000, Training Loss: 0.067987.
+Epoch number: 152.000000, Training Loss: 0.066949.
+Epoch number: 153.000000, Training Loss: 0.067018.
+Epoch number: 154.000000, Training Loss: 0.067651.
+Epoch number: 155.000000, Training Loss: 0.067310.
+Epoch number: 156.000000, Training Loss: 0.066469. ---------->stop point 156
+Epoch number: 157.000000, Training Loss: 0.066845.
+Epoch number: 158.000000, Training Loss: 0.067316.
+Epoch number: 159.000000, Training Loss: 0.071094.
+Epoch number: 160.000000, Training Loss: 0.078879.
+Epoch number: 161.000000, Training Loss: 0.082301.
+Epoch number: 162.000000, Training Loss: 0.072810.
+Epoch number: 163.000000, Training Loss: 0.073447.
+Epoch number: 164.000000, Training Loss: 0.072104.
+Epoch number: 165.000000, Training Loss: 0.071797.
+Epoch number: 166.000000, Training Loss: 0.068009.
+Epoch number: 167.000000, Training Loss: 0.066169.
+Epoch number: 168.000000, Training Loss: 0.065479.
+Epoch number: 169.000000, Training Loss: 0.066809.
+Epoch number: 170.000000, Training Loss: 0.066528.
+Epoch number: 171.000000, Training Loss: 0.064548.
+Epoch number: 172.000000, Training Loss: 0.068804.
+Epoch number: 173.000000, Training Loss: 0.065549.
+Epoch number: 174.000000, Training Loss: 0.067386.
+Epoch number: 175.000000, Training Loss: 0.065622.
+Epoch number: 176.000000, Training Loss: 0.065043.
+Epoch number: 177.000000, Training Loss: 0.068929.
+Epoch number: 178.000000, Training Loss: 0.066208.
+Epoch number: 179.000000, Training Loss: 0.063583.
+Epoch number: 180.000000, Training Loss: 0.063652.
+Epoch number: 181.000000, Training Loss: 0.061227.
+Epoch number: 182.000000, Training Loss: 0.067538.
+Epoch number: 183.000000, Training Loss: 0.063378.
+Epoch number: 184.000000, Training Loss: 0.064267.
+Epoch number: 185.000000, Training Loss: 0.064511.
+Epoch number: 186.000000, Training Loss: 0.064642.
+Epoch number: 187.000000, Training Loss: 0.064616.
+Epoch number: 188.000000, Training Loss: 0.065490.
+Epoch number: 189.000000, Training Loss: 0.068140.
+Epoch number: 190.000000, Training Loss: 0.074208.
+Epoch number: 191.000000, Training Loss: 0.072679.
+Epoch number: 192.000000, Training Loss: 0.066789.
+Epoch number: 193.000000, Training Loss: 0.064429.
+Epoch number: 194.000000, Training Loss: 0.066415.
+Epoch number: 195.000000, Training Loss: 0.065809.
+Epoch number: 196.000000, Training Loss: 0.063459.
+Epoch number: 197.000000, Training Loss: 0.066799.
+Epoch number: 198.000000, Training Loss: 0.070723.
+Epoch number: 199.000000, Training Loss: 0.063737.
+Epoch number: 0.000000, Error: 0.109733.
+Epoch number: 1.000000, Error: 0.087933.
+Epoch number: 2.000000, Error: 0.077933.
+Epoch number: 3.000000, Error: 0.072467.
+Epoch number: 4.000000, Error: 0.064467.
+Epoch number: 5.000000, Error: 0.054000.
+Epoch number: 6.000000, Error: 0.055400.
+Epoch number: 7.000000, Error: 0.042600.
+Epoch number: 8.000000, Error: 0.037267.
+Epoch number: 9.000000, Error: 0.033933.
+Epoch number: 10.000000, Error: 0.023667.
+Epoch number: 11.000000, Error: 0.027000.
+Epoch number: 12.000000, Error: 0.020667.
+Epoch number: 13.000000, Error: 0.020133.
+Epoch number: 14.000000, Error: 0.014000.
+Epoch number: 15.000000, Error: 0.013667.
+Epoch number: 16.000000, Error: 0.012733.
+Epoch number: 17.000000, Error: 0.013467.
+Epoch number: 18.000000, Error: 0.009067.
+Epoch number: 19.000000, Error: 0.006933.
+Epoch number: 20.000000, Error: 0.009000.
+Epoch number: 21.000000, Error: 0.005267.
+Epoch number: 22.000000, Error: 0.007133.
+Epoch number: 23.000000, Error: 0.006333.
+Epoch number: 24.000000, Error: 0.003867.
+Epoch number: 25.000000, Error: 0.003467.
+Epoch number: 26.000000, Error: 0.006133.
+Epoch number: 27.000000, Error: 0.003333.
+Epoch number: 28.000000, Error: 0.003800.
+Epoch number: 29.000000, Error: 0.005067.
+Epoch number: 30.000000, Error: 0.002267.
+Epoch number: 31.000000, Error: 0.006133.
+Epoch number: 32.000000, Error: 0.002667.
+Epoch number: 33.000000, Error: 0.002267.
+Epoch number: 34.000000, Error: 0.005267.
+Epoch number: 35.000000, Error: 0.002933.
+Epoch number: 36.000000, Error: 0.003067.
+Epoch number: 37.000000, Error: 0.011600.
+Epoch number: 38.000000, Error: 0.006933.
+Epoch number: 39.000000, Error: 0.002733.
+Epoch number: 40.000000, Error: 0.003333.
+Epoch number: 41.000000, Error: 0.001400.
+Epoch number: 42.000000, Error: 0.002333.
+Epoch number: 43.000000, Error: 0.001933.
+Epoch number: 44.000000, Error: 0.001733.
+Epoch number: 45.000000, Error: 0.002000.
+Epoch number: 46.000000, Error: 0.002133.
+Epoch number: 47.000000, Error: 0.001667.
+Epoch number: 48.000000, Error: 0.003000.
+Epoch number: 49.000000, Error: 0.001733.
+Epoch number: 50.000000, Error: 0.002667.
+Epoch number: 51.000000, Error: 0.002733.
+Epoch number: 52.000000, Error: 0.001733.
+Epoch number: 53.000000, Error: 0.002067.
+Epoch number: 54.000000, Error: 0.003000.
+Epoch number: 55.000000, Error: 0.004400.
+Epoch number: 56.000000, Error: 0.006200.
+Epoch number: 57.000000, Error: 0.006467.
+Epoch number: 58.000000, Error: 0.004867.
+Epoch number: 59.000000, Error: 0.004133.
+Epoch number: 60.000000, Error: 0.005600.
+Epoch number: 61.000000, Error: 0.002533.
+Epoch number: 62.000000, Error: 0.004000.
+Epoch number: 63.000000, Error: 0.002133.
+Epoch number: 64.000000, Error: 0.001733.
+Epoch number: 65.000000, Error: 0.002133.
+Epoch number: 66.000000, Error: 0.001667.
+Epoch number: 67.000000, Error: 0.001733.
+Epoch number: 68.000000, Error: 0.001800.
+Epoch number: 69.000000, Error: 0.001533.
+Epoch number: 70.000000, Error: 0.001200.
+Epoch number: 71.000000, Error: 0.001933.
+Epoch number: 72.000000, Error: 0.001133.
+Epoch number: 73.000000, Error: 0.001600.
+Epoch number: 74.000000, Error: 0.005800.
+Epoch number: 75.000000, Error: 0.004000.
+Epoch number: 76.000000, Error: 0.002200.
+Epoch number: 77.000000, Error: 0.004400.
+Epoch number: 78.000000, Error: 0.002333.
+Epoch number: 79.000000, Error: 0.001667.
+Epoch number: 80.000000, Error: 0.001267.
+Epoch number: 81.000000, Error: 0.001667.
+Epoch number: 82.000000, Error: 0.003733.
+Epoch number: 83.000000, Error: 0.001733.
+Epoch number: 84.000000, Error: 0.003267.
+Epoch number: 85.000000, Error: 0.001733.
+Epoch number: 86.000000, Error: 0.002333.
+Epoch number: 87.000000, Error: 0.001200.
+Epoch number: 88.000000, Error: 0.001467.
+Epoch number: 89.000000, Error: 0.001933.
+Epoch number: 90.000000, Error: 0.001533.
+Epoch number: 91.000000, Error: 0.003067.
+Epoch number: 92.000000, Error: 0.001333.
+Epoch number: 93.000000, Error: 0.001200.
+Epoch number: 94.000000, Error: 0.002000.
+Epoch number: 95.000000, Error: 0.001867.
+Epoch number: 96.000000, Error: 0.003400.
+Epoch number: 97.000000, Error: 0.001400.
+Epoch number: 98.000000, Error: 0.013000.
+Epoch number: 99.000000, Error: 0.018000.
+Epoch number: 100.000000, Error: 0.006200.
+Epoch number: 101.000000, Error: 0.003800.
+Epoch number: 102.000000, Error: 0.001867.
+Epoch number: 103.000000, Error: 0.001533.
+Epoch number: 104.000000, Error: 0.001200.
+Epoch number: 105.000000, Error: 0.000800.
+Epoch number: 106.000000, Error: 0.000733.
+Epoch number: 107.000000, Error: 0.001200.
+Epoch number: 108.000000, Error: 0.000867.
+Epoch number: 109.000000, Error: 0.000667.
+Epoch number: 110.000000, Error: 0.000800.
+Epoch number: 111.000000, Error: 0.001733.
+Epoch number: 112.000000, Error: 0.001333.
+Epoch number: 113.000000, Error: 0.000867.
+Epoch number: 114.000000, Error: 0.001000.
+Epoch number: 115.000000, Error: 0.001467.
+Epoch number: 116.000000, Error: 0.001533.
+Epoch number: 117.000000, Error: 0.001200.
+Epoch number: 118.000000, Error: 0.001067.
+Epoch number: 119.000000, Error: 0.001667.
+Epoch number: 120.000000, Error: 0.001333.
+Epoch number: 121.000000, Error: 0.001467.
+Epoch number: 122.000000, Error: 0.000867.
+Epoch number: 123.000000, Error: 0.001400.
+Epoch number: 124.000000, Error: 0.001133.
+Epoch number: 125.000000, Error: 0.001267.
+Epoch number: 126.000000, Error: 0.001400.
+Epoch number: 127.000000, Error: 0.000733.
+Epoch number: 128.000000, Error: 0.001467.
+Epoch number: 129.000000, Error: 0.004933.
+Epoch number: 130.000000, Error: 0.003667.
+Epoch number: 131.000000, Error: 0.001600.
+Epoch number: 132.000000, Error: 0.001400.
+Epoch number: 133.000000, Error: 0.001000.
+Epoch number: 134.000000, Error: 0.003800.
+Epoch number: 135.000000, Error: 0.001400.
+Epoch number: 136.000000, Error: 0.002533.
+Epoch number: 137.000000, Error: 0.001200.
+Epoch number: 138.000000, Error: 0.001267.
+Epoch number: 139.000000, Error: 0.000600.
+Epoch number: 140.000000, Error: 0.001533.
+Epoch number: 141.000000, Error: 0.001667.
+Epoch number: 142.000000, Error: 0.003200.
+Epoch number: 143.000000, Error: 0.002200.
+Epoch number: 144.000000, Error: 0.001600.
+Epoch number: 145.000000, Error: 0.001333.
+Epoch number: 146.000000, Error: 0.001467.
+Epoch number: 147.000000, Error: 0.001067.
+Epoch number: 148.000000, Error: 0.000867.
+Epoch number: 149.000000, Error: 0.002267.
+Epoch number: 150.000000, Error: 0.001133.
+Epoch number: 151.000000, Error: 0.001000.---------->stoppoint
+Epoch number: 152.000000, Error: 0.001000.
+Epoch number: 153.000000, Error: 0.001133.
+Epoch number: 154.000000, Error: 0.001133.
+Epoch number: 155.000000, Error: 0.001400.
+Epoch number: 156.000000, Error: 0.001267.---------->stoppoint
+Epoch number: 157.000000, Error: 0.001267.
+Epoch number: 158.000000, Error: 0.001800.
+Epoch number: 159.000000, Error: 0.003067.
+Epoch number: 160.000000, Error: 0.003467.
+Epoch number: 161.000000, Error: 0.002867.
+Epoch number: 162.000000, Error: 0.001533.
+Epoch number: 163.000000, Error: 0.002133.
+Epoch number: 164.000000, Error: 0.001933.
+Epoch number: 165.000000, Error: 0.001333.
+Epoch number: 166.000000, Error: 0.001200.
+Epoch number: 167.000000, Error: 0.000867.
+Epoch number: 168.000000, Error: 0.001133.
+Epoch number: 169.000000, Error: 0.001133.
+Epoch number: 170.000000, Error: 0.000800.
+Epoch number: 171.000000, Error: 0.001133.
+Epoch number: 172.000000, Error: 0.002000.
+Epoch number: 173.000000, Error: 0.001133.
+Epoch number: 174.000000, Error: 0.001400.
+Epoch number: 175.000000, Error: 0.001067.
+Epoch number: 176.000000, Error: 0.001067.
+Epoch number: 177.000000, Error: 0.001800.
+Epoch number: 178.000000, Error: 0.001733.
+Epoch number: 179.000000, Error: 0.000733.
+Epoch number: 180.000000, Error: 0.001133.
+Epoch number: 181.000000, Error: 0.000800.
+Epoch number: 182.000000, Error: 0.001867.
+Epoch number: 183.000000, Error: 0.000933.
+Epoch number: 184.000000, Error: 0.000933.
+Epoch number: 185.000000, Error: 0.001200.
+Epoch number: 186.000000, Error: 0.001000.
+Epoch number: 187.000000, Error: 0.000867.
+Epoch number: 188.000000, Error: 0.001000.
+Epoch number: 189.000000, Error: 0.001933.
+Epoch number: 190.000000, Error: 0.003067.
+Epoch number: 191.000000, Error: 0.002733.
+Epoch number: 192.000000, Error: 0.001200.
+Epoch number: 193.000000, Error: 0.000800.
+Epoch number: 194.000000, Error: 0.001867.
+Epoch number: 195.000000, Error: 0.000933.
+Epoch number: 196.000000, Error: 0.000733.
+Epoch number: 197.000000, Error: 0.001867.
+Epoch number: 198.000000, Error: 0.003200.
+Epoch number: 199.000000, Error: 0.000867.
+
