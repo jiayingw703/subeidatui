@@ -1,0 +1,25 @@
+learning rate: 0.000888, Number of hidden layers: 4.000000, Number of hidden units: 382.000000, decay efficient: 0.000714.
+1.3.1 Final test error with dropout:0.072320, Final test error without dropout:0.077827.
+1.3.1 Final train error with dropout:0.002133, Final train error without dropout:0.019733.
+1.3.1 Final test error with dropout:0.071000, Final test error without dropout:0.070000.
+Trial 2
+learning rate: 0.000166, Number of hidden layers: 2.000000, Number of hidden units: 358.000000, decay efficient: 0.000025.
+1.3.1 Final test error with dropout:0.075257, Final test error without dropout:0.079662.
+1.3.1 Final train error with dropout:0.000467, Final train error without dropout:0.019067.
+1.3.1 Final test error with dropout:0.079000, Final test error without dropout:0.084000.
+Trial 3
+learning rate: 0.001490, Number of hidden layers: 1.000000, Number of hidden units: 493.000000, decay efficient: 0.000748.
+1.3.1 Final test error with dropout:0.077827, Final test error without dropout:0.078928.
+1.3.1 Final train error with dropout:0.006333, Final train error without dropout:0.035667.
+1.3.1 Final test error with dropout:0.065000, Final test error without dropout:0.077000.
+Trial 4
+learning rate: 0.001063, Number of hidden layers: 2.000000, Number of hidden units: 488.000000, decay efficient: 0.002265.
+1.3.1 Final test error with dropout:0.076725, Final test error without dropout:0.084435.
+1.3.1 Final train error with dropout:0.026733, Final train error without dropout:0.049667.
+1.3.1 Final test error with dropout:0.074000, Final test error without dropout:0.082000.
+Trial 5
+learning rate: 0.000744, Number of hidden layers: 2.000000, Number of hidden units: 481.000000, decay efficient: 0.000483.
+1.3.1 Final test error with dropout:0.069016, Final test error without dropout:0.077460.
+1.3.1 Final train error with dropout:0.002133, Final train error without dropout:0.017800.
+1.3.1 Final test error with dropout:0.067000, Final test error without dropout:0.074000.
+

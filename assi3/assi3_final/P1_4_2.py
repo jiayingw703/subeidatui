@@ -323,5 +323,3 @@ def plot():
 		tf.reset_default_graph()	
 
 plot()
-
-
